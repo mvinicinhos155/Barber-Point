@@ -1,0 +1,44 @@
+
+
+.homepeges {
+    background-image: url(../../assets/Barber-Point.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+    background-position: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    backdrop-filter: blur(5px);
+}
+
+.lerf {
+    margin: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.lerf h1 {
+    font-size: 75px;
+    color: rgb(250, 247, 247);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lerf h2 {
+    font-size: 50px;
+    color: #84a5f5;
+}
+
+
+.lerf span {
+    color: rgb(255, 251, 251);
+    text-decoration: underline;
+}
+
+.rigth {
+    display: flex;
+    align-items: center;
+}
+

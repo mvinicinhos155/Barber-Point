@@ -1,0 +1,92 @@
+.rodape-contatos {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgba(8, 8, 8, 0.973);
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid rgba(63, 87, 194, 0.664);
+    box-shadow: 4px 1px 69px -3px #2d4eb1;
+}
+
+.rede-social {
+    width: 700px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logos {
+    font-size: 30px;
+    color: rgb(190, 188, 188);
+    margin: 20px;
+    cursor: pointer;
+    transition: transform 0.8s ease-in-out;
+
+}
+
+.logos:hover {
+    transform: translateY(-10px);
+}
+.logo-princ {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo-princ span {  
+    color: rgb(56, 56, 56);
+}
+
+
+.logo-princ img {
+    width: 200px;
+    transition: all 1.06s;
+    cursor: pointer;
+}
+
+.logo-princ img:hover {
+    transform: scale(1.09);
+}
+
+.endtel {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.endereço {
+    margin: 10px;
+}
+
+.endereço .full {
+    font-size: 30px;
+    color: rgb(190, 188, 188);;
+}
+
+.endereço span {
+    font-size: 20px;
+    color:  rgb(56, 56, 56);
+    margin: 15px;
+}
+
+@keyframes logosmuv {
+    from {
+        transform: translateY(-300px);
+    } to {
+        transform: translateY(0);
+    }
+}
